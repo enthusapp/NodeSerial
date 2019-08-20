@@ -1,4 +1,4 @@
-import SerialPort from 'serialport';
+const SerialPort = require('serialport');
 
 module.exports = (portName, msg, cb) => {
   if (typeof portName !== 'string') {

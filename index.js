@@ -1,5 +1,5 @@
-import planProtocol from './planProtocol';
-import sender from './sender';
+const planProtocol = require('./planProtocol');
+const sender = require('./sender');
 
 function errorOut(err) {
   console.log(err);
