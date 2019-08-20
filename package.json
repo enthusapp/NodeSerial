@@ -1,0 +1,36 @@
+{
+  "name": "node_serial",
+  "version": "1.0.0",
+  "description": "Enthus Node.js Serial applicaiton",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "start": "babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enthusapp/NodeSerial.git"
+  },
+  "keywords": [
+    "serial"
+  ],
+  "author": "handohee",
+  "license": "ENTHUS",
+  "bugs": {
+    "url": "https://github.com/enthusapp/NodeSerial/issues"
+  },
+  "homepage": "https://github.com/enthusapp/NodeSerial#readme",
+  "dependencies": {
+    "@types/jest": "^24.0.11",
+    "async": "^2.6.2",
+    "dotenv": "^7.0.0",
+    "serialport": "^7.1.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.3.1"
+  }
+}
