@@ -16,7 +16,7 @@ ETS-DMX512M 의 PLAN 설정 예시 프로그램
 ```
 F:\electron\x86>dmxPlanSet_x86.exe COM1 1
 COM1 opened
-Send 2,250,255,255,249,1,0,0,0,0,0,0,0,1,245,247,3
+Send 2,250,255,255,249,1,0,0,0,0,0,0,0,1,245,247,3    // ETS-DMX512M Protocol
 ```
 
 # 개발
