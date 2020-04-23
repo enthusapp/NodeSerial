@@ -9,10 +9,12 @@ ETS-DMX512M 의 PLAN 설정 예시 프로그램
 1. 압축해제한 폴더로 이동
 1. 아래 명령어 실행
 ```
-> dmxPlanSet_x86.exe <USB to 485 COM Port 번호> <PLAN 번호>
+> dmxPlanSet_x86.exe <USB to 485 COM Port 번호> <PLAN 번호 - 1>
 ```
 
-##### 예시
+### 예시
+USB to 485 가 COM1 로 설정되어 있고 PLAN 2 를 선택할때
+
 ```
 F:\electron\x86>dmxPlanSet_x86.exe COM1 1
 COM1 opened
