@@ -26,7 +26,7 @@ Send 2,250,255,255,249,1,0,0,0,0,0,0,0,1,245,247,3    // ETS-DMX512M Protocol
 ##### 1. Install Node.js
 https://nodejs.org/ko/download/
 
-##### 2. npm i
+##### 2. npm modules install
 ```
 C:\NodeSerial> npm i
 ```
