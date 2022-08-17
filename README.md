@@ -13,7 +13,7 @@ ETS-DMX512M 의 PLAN 설정 예시 프로그램
 1. Windows prompt 가 실행되면 아래 명령어를 입력합니다.
 1. DMX512M 의 LCD 의 PLAN 번호가 변경되었는지 확인
 ```
-> dmxPlanSet_x86.exe <USB-485 Converter COM Port 번호> <PLAN 번호 - 1>
+> dmxPlanSet_x86.exe <USB-485 Converter COM 포트 번호> <PLAN 번호 - 1>
 ```
 
 ### 예시
